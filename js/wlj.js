@@ -1,4 +1,4 @@
-// 获取所有城市
+﻿// 获取所有城市
 let citys,weatherobj;
 $.ajax({
 	url:"https://www.toutiao.com/stream/widget/local_weather/city/",
@@ -26,7 +26,7 @@ $.ajax({
 	}
 })
 
-$.getScript("http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
+$.getScript("https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function(){
     // getFullWeather(remote_ip_info.city);
     getFullWeather("太原市");
 });
